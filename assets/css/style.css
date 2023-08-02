@@ -86,7 +86,7 @@ body {
   }
   
   li button {
-    background-color: lightgreen;
+    background-color: rgb(62, 190, 62);
     color: #fff;
     padding: 5px 10px;
     border: none;
@@ -97,12 +97,17 @@ body {
   .weather-card p {
     margin: 5px 0;
   }
+
+  #weatherCard h2 {
+    color: #fff;
+  }
   
   .forecast-card {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 5px;
+    color: darkgreen;
   }
   
   .forecast-card h3 {
